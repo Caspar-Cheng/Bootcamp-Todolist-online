@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 //to make public folder recognized by express.js
 app.use(express.static("public"));
 //link to mongoose
-mongoose.connect("mongodb+srv://admin-caspar:160423@caspardb.oc61l.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://admin-caspar:<password>@caspardb.oc61l.mongodb.net/<dbname>", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
